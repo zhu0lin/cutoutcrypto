@@ -11,7 +11,7 @@ const io = new Server(server);
 
 const config = {
     headers: {
-        'X-CMC_PRO_API_KEY': process.env['X-CMC_PRO_API_KEY']
+        'X_CMC_PRO_API_KEY': process.env['X-CMC_PRO_API_KEY']
     }
 };
 
