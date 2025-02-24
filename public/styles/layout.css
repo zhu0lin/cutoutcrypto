@@ -1,0 +1,30 @@
+/* Header and footer CSS */
+
+#logo {
+    position: fixed;
+    color: darkblue;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: 3%;
+    font-family: 'quantico', sans-serif;
+    margin-bottom: 4rem;
+}
+
+#logo h1 {
+    text-align: left;
+}
+
+#copyright {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    height: 3%;
+    background-color: #2b405e;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
